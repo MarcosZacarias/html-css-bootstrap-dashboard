@@ -1,5 +1,5 @@
 :root {
-  --top-content-height: 60px;
+  --top-content-height: 80px;
   --sidebar-width: 75px;
 }
 
@@ -53,6 +53,10 @@
 
 /* *NAVBAR */
 
+#top_content ._logo_mobile {
+  height: 48px;
+}
+
 /* |BOTTOM CONTENT| */
 
 /* *SIDEBAR */
@@ -66,6 +70,12 @@
 /* |RESPONSIVE| */
 
 /* *SCREEN TABLET (MD) */
+
+@media screen and (min-width: 992px) {
+  :root {
+    --top-content-height: 60px;
+  }
+}
 
 /* *SCREEN DESCKTOP (LG) */
 
