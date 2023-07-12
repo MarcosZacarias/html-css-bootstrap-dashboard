@@ -36,6 +36,9 @@
 
 #sidebar {
   width: var(--sidebar-width);
+
+  background-image: url(../img/sidebar-bg.png);
+  background-color: #051e34;
 }
 
 #main {
