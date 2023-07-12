@@ -16,6 +16,7 @@
 ._box {
   width: 10px;
   aspect-ratio: 1;
+  background-color: violet;
 }
 
 /* |RESET| */
