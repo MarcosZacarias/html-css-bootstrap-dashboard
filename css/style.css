@@ -69,6 +69,12 @@
 
 /* HEADER */
 
+#header ._badge_header {
+  font-size: 0.9rem;
+  color: white;
+  background-color: #165bba;
+}
+
 /* MAIN-CONTENT */
 
 /* |RESPONSIVE| */
