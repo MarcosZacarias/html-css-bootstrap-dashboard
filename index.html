@@ -13,9 +13,19 @@
       crossorigin="anonymous"
     />
 
+    <!-- LINK FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- LINK CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
+
   <body>
     <!-- TOP CONTENT -->
     <div id="top_content" class="_bordered bg-light">
@@ -81,13 +91,29 @@
           </div>
         </div>
       </nav>
-      <!-- <nav id="navbar"></nav> -->
     </div>
 
     <!-- BOTTOM CONTENT -->
     <div id="bottom_content" class="_bordered d-flex">
       <!-- ASIDEBAR -->
-      <aside id="sidebar" class="_bordered"></aside>
+      <aside id="sidebar" class="_bordered py-4">
+        <div class="m-2">
+          <i class="fa-solid fa-house fa-lg _icons_sidebar"></i>
+          <p class="d-none d-lg-inline-block m-0">Home</p>
+        </div>
+        <div class="m-2">
+          <i class="fa-solid fa-chart-simple fa-lg _icons_sidebar"></i>
+          <p class="d-none d-lg-inline-block m-0">Stats</p>
+        </div>
+        <div class="m-2">
+          <i class="fa-solid fa-signal fa-lg _icons_sidebar"></i>
+          <p class="d-none d-lg-inline-block m-0">Signals</p>
+        </div>
+        <div class="m-2 mt-auto">
+          <i class="fa-solid fa-gear fa-lg _icons_sidebar"></i>
+          <p class="d-none d-lg-inline-block m-0">Admin</p>
+        </div>
+      </aside>
 
       <!-- MAIN -->
       <main id="main" class="bordered">

@@ -39,6 +39,10 @@
 
 #sidebar {
   width: var(--sidebar-width);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 
   background-image: url(../img/sidebar-bg.png);
   background-color: #051e34;
@@ -82,5 +86,12 @@
 @media screen and (min-width: 992px) {
   :root {
     --sidebar-width: 150px;
+  }
+  #sidebar {
+    align-items: start;
+  }
+
+  #sidebar ._icons_sidebar {
+    width: 30px;
   }
 }
