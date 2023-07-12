@@ -58,3 +58,11 @@
 /* MAIN-CONTENT */
 
 /* |RESPONSIVE| */
+
+/* *SCREEN DESCKTOP (LG) */
+
+@media screen and (min-width: 992px) {
+  :root {
+    --sidebar-width: 150px;
+  }
+}
