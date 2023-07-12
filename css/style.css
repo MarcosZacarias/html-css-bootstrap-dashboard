@@ -1,5 +1,5 @@
 :root {
-  --top-bontent-height: 100px;
+  --top-content-height: 60px;
   --sidebar-width: 75px;
 }
 
@@ -28,11 +28,13 @@
 /* |LAYOUT| */
 
 #top_content {
-  height: var(--top-bontent-height);
+  height: var(--top-content-height);
+  display: flex;
+  align-items: center;
 }
 
 #bottom_content {
-  height: calc(100vh - var(--top-bontent-height));
+  height: calc(100vh - var(--top-content-height));
 }
 
 #sidebar {
@@ -62,6 +64,8 @@
 /* MAIN-CONTENT */
 
 /* |RESPONSIVE| */
+
+/* *SCREEN TABLET (MD) */
 
 /* *SCREEN DESCKTOP (LG) */
 
