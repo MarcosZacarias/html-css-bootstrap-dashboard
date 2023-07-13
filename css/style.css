@@ -83,6 +83,28 @@
 
 /* MAIN-CONTENT */
 
+/* CARD "PROSSIME CLASSI" */
+
+.main-content ._icon_card_classi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  text-align: center;
+  padding: 3px;
+
+  color: white;
+  background-color: #f26551;
+}
+
+.main-content ._btn_class {
+  min-width: 35px;
+  aspect-ratio: 1;
+  padding: 0;
+  text-align: center;
+}
+
 /* |RESPONSIVE| */
 
 /* *SCREEN TABLET (MD) */

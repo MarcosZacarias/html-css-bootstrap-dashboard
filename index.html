@@ -176,33 +176,97 @@
                 <div class="card my-4">
                   <h5 class="card-header fs-3">Prossime classi</h5>
                   <div class="card-body">
+                    <!-- List next classes -->
                     <ul class="list-group list-group-flush">
+                      <!-- Titles list -->
                       <li class="list-group-item d-flex">
-                        <div class="col-6">nome</div>
-                        <div class="col-4">stato</div>
-                        <div class="col-2">azione</div>
+                        <!-- Title "Nome" -->
+                        <div class="col-6 col-md-4">
+                          <div>Nome</div>
+                        </div>
+
+                        <!-- Title "Start date" -->
+                        <div class="d-none d-md-block col-md-2">
+                          <div class="text-center">Data inizio</div>
+                        </div>
+
+                        <!-- Title "ROI" -->
+                        <div class="d-none d-md-block col-md-2">
+                          <div class="text-center">ROI</div>
+                        </div>
+
+                        <!-- Title "Stato" -->
+                        <div class="col-3 col-md-2">
+                          <div class="text-center">Stato</div>
+                        </div>
+
+                        <!-- Title "Azioni" -->
+                        <div class="col-3 col-md-2">
+                          <div class="text-center">Azioni</div>
+                        </div>
                       </li>
+
+                      <!-- N°1 line list -->
+                      <!-- Name -->
                       <li class="list-group-item d-flex">
-                        <div class="col-6">
-                          <span></span>
-                          <span>Classe 75</span>
+                        <div class="col-6 col-md-4">
+                          <div class="d-flex align-items-center h-100">
+                            <div class="_icon_card_classi">
+                              <i class="fa-solid fa-code fa-lg"></i>
+                            </div>
+                            <div class="ms-2">Classe 75</div>
+                          </div>
                         </div>
-                        <div class="col-4">
-                          <span class="badge text-bg-success">Done</span>
+
+                        <!-- Start date -->
+                        <div class="d-none d-md-block col-md-2">
+                          <div
+                            class="d-flex align-items-center justify-content-center h-100"
+                          >
+                            <div>15 Feb 2021</div>
+                          </div>
                         </div>
-                        <div class="col-2">
-                          <button
-                            type="button"
-                            class="btn btn-outline-secondary"
+
+                        <!-- ROI -->
+                        <div class="d-none d-md-block col-md-2">
+                          <div
+                            class="d-flex align-items-center justify-content-center h-100"
                           >
-                            Secondary
-                          </button>
-                          <button
-                            type="button"
-                            class="btn btn-outline-secondary"
+                            <span class="">20%</span>
+                          </div>
+                        </div>
+
+                        <!-- State -->
+                        <div class="col-3 col-md-2">
+                          <div
+                            class="d-flex align-items-center justify-content-center h-100"
                           >
-                            Secondary
-                          </button>
+                            <span class="badge text-bg-success">Done</span>
+                          </div>
+                        </div>
+
+                        <!-- Action -->
+                        <div class="col-3 col-md-2">
+                          <div
+                            class="d-flex gap-2 justify-content-center h-100"
+                          >
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary _btn_class"
+                            >
+                              <span>
+                                <i class="fa-solid fa-pencil"></i>
+                              </span>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-outline-secondary _btn_class"
+                            >
+                              <span>
+                                <i class="fa-solid fa-trash"></i>
+                              </span>
+                            </button>
+                          </div>
                         </div>
                       </li>
                       <li class="list-group-item">A third item</li>
