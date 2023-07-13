@@ -158,41 +158,176 @@
         <div class="main-content">
           <div class="container-fluid">
             <div class="row">
-              <div class="col-12 col-lg-9">
+              <!-- GRID MAIN -->
+
+              <!-- LEFT COLUMN (SCREEN LG) -->
+              <div class="col-12 col-lg-8">
+                <!-- CARD "PROSSIME CLASSI" -->
                 <div class="card my-4">
-                  <h5 class="card-header">Featured</h5>
+                  <h5 class="card-header fs-3">Prossime classi</h5>
                   <div class="card-body"></div>
                 </div>
+
+                <!-- CARD "F.A.Q." -->
                 <div class="card my-4">
-                  <h5 class="card-header">Featured</h5>
-                  <div class="card-body"></div>
+                  <h5 class="card-header fs-3">F.A.Q.</h5>
+                  <div class="card-body">
+                    <div
+                      class="accordion accordion-flush"
+                      id="accordionFlushExample"
+                    >
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseOne"
+                          >
+                            Come aggiungere un nuovo studente?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseOne"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="flush-headingOne"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Clicca sul + in alto nella sezione blu
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseTwo"
+                          >
+                            Come posso accedere alle informazione del mio
+                            account?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseTwo"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="flush-headingTwo"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            Clicca sull'icona della campanella.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree"
+                            aria-expanded="false"
+                            aria-controls="flush-collapseThree"
+                          >
+                            Posso usare questa dashboard da mobile?
+                          </button>
+                        </h2>
+                        <div
+                          id="flush-collapseThree"
+                          class="accordion-collapse collapse"
+                          aria-labelledby="flush-headingThree"
+                          data-bs-parent="#accordionFlushExample"
+                        >
+                          <div class="accordion-body">
+                            si si può utilizzare da mobile
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="col-12 col-lg-3">
+
+              <!-- RIGHT COLUMN (SCREEN LG) -->
+              <div class="col-12 col-lg-4">
+                <!-- CARD "TODO" -->
                 <div class="card my-4">
-                  <h5 class="card-header">Featured</h5>
-                  <div class="card-body"></div>
+                  <h5 class="card-header fs-3">Todo</h5>
+                  <div class="card-body">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <input
+                          class="form-check-input me-1"
+                          type="checkbox"
+                          value=""
+                          id="firstCheckboxStretched"
+                        />
+                        <label
+                          class="form-check-label stretched-link"
+                          for="firstCheckboxStretched"
+                          >Kickoff nuove classi</label
+                        >
+                      </li>
+                      <li class="list-group-item">
+                        <input
+                          class="form-check-input me-1"
+                          type="checkbox"
+                          value=""
+                          id="secondCheckboxStretched"
+                        />
+                        <label
+                          class="form-check-label stretched-link"
+                          for="secondCheckboxStretched"
+                          >Lezione su Bootstrap 5 in classe #103</label
+                        >
+                      </li>
+                      <li class="list-group-item">
+                        <input
+                          class="form-check-input me-1"
+                          type="checkbox"
+                          value=""
+                          id="thirdCheckboxStretched"
+                        />
+                        <label
+                          class="form-check-label stretched-link"
+                          for="thirdCheckboxStretched"
+                          >Controllare username github studenti</label
+                        >
+                      </li>
+                    </ul>
+                  </div>
                 </div>
+
+                <!-- CARD "UTENTI ATTIVI" -->
                 <div class="card my-4">
                   <div class="card m-2">
                     <img src="./img/stats.jpeg" alt="" class="img-fluid" />
 
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h5 class="card-title fs-3">Utenti attivi</h5>
                       <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
+                        Lista degli utenti attivi in piattaforma nell'ultimo
+                        mese
                       </p>
                     </div>
                     <ul class="list-group list-group-flush">
                       <li class="list-group-item">An item</li>
                       <li class="list-group-item">A second item</li>
                       <li class="list-group-item">A third item</li>
+                      <li class="list-group-item">
+                        <div class="card-body px-0">
+                          <a href="#" class="card-link"
+                            >Visualizza report approfondito</a
+                          >
+                        </div>
+                      </li>
                     </ul>
-                    <div class="card-body">
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
-                    </div>
                   </div>
                 </div>
               </div>
