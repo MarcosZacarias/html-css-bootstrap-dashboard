@@ -89,6 +89,11 @@
   background-color: #165bba;
 }
 
+#offcanvasAddStudent.offcanvas {
+  width: 100%;
+  max-width: 768px;
+}
+
 /* MAIN-CONTENT */
 
 /* CARD "PROSSIME CLASSI" */
