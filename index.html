@@ -31,6 +31,7 @@
     <div id="top_content" class="bg-light">
       <!-- NAVBAR -->
 
+      <!-- Logo Navbar -->
       <nav class="navbar navbar-expand-lg bg-white py-0 m-0 flex-grow-1">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
@@ -48,14 +49,22 @@
             />
           </a>
 
-          <form class="d-flex flex-grow-1" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-          </form>
+          <!-- Bar Search Navbar -->
+          <div class="_bar_search rounded-pill">
+            <span class="ms-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+            <form class="flex-grow-1" role="search">
+              <input
+                class="px-1 form-control _bg_light_grey border-0 rounded-pill"
+                type="search"
+                placeholder="Prova a cercare: Lezioni di Laravel"
+                aria-label="Search"
+              />
+            </form>
+          </div>
+
+          <!-- Icons Navbar -->
           <div class="mb-lg-0 flex-grow-0">
             <div class="nav-item dropdown position-relative">
               <span class="d-none d-lg-inline-block px-2 text-secondary">
@@ -70,6 +79,7 @@
                 <i class="fa-solid fa-ellipsis-vertical"></i>
               </span>
 
+              <!-- Icon dropdown Menu -->
               <button
                 type="button"
                 class="btn dropdown-toggle text-warning"
